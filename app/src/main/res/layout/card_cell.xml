@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="5sp"
+    android:paddingLeft="5sp"
+    android:id="@+id/cell"
+    android:paddingBottom="10sp"
+    android:paddingTop="10sp">
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/text"
+        android:background="@drawable/circle"
+        android:text="12\nDec"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
